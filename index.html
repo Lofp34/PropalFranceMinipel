@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proposition Stratégique - France Mini-Pelles</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="presentation-container">
+        <!-- Slide Navigation -->
+        <div class="slide-nav">
+            <button class="nav-btn prev-btn" onclick="prevSlide()">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+            <div class="slide-counter">
+                <span id="current-slide">1</span> / <span id="total-slides">10</span>
+            </div>
+            <button class="nav-btn next-btn" onclick="nextSlide()">
+                <i class="fas fa-chevron-right"></i>
+            </button>
+        </div>
+
+        <!-- Progress Bar -->
+        <div class="progress-bar">
+            <div class="progress-fill" id="progress-fill"></div>
+        </div>
+
+        <!-- Slide 1: Titre -->
+        <div class="slide active">
+            <div class="slide-content title-slide">
+                <div class="title-container">
+                    <h1 class="main-title">
+                        <span class="highlight">Accélérer la Conversion</span><br>
+                        de France Mini-Pelles
+                    </h1>
+                    <p class="subtitle">Par l'Optimisation Comportementale des Entretiens de Vente à Distance</p>
+                    
+                    <div class="proposal-meta">
+                        <div class="meta-item">
+                            <strong>Pour :</strong> Yann Lapelle, Gérant - France Mini-Pelles
+                        </div>
+                        <div class="meta-item">
+                            <strong>Par :</strong> Laurent Serre, Expert Hybride en Performance Commerciale
+                        </div>
+                    </div>
+                    
+                    <div class="cta-preview">
+                        <div class="stat-box">
+                            <div class="big-number">+100</div>
+                            <div class="stat-label">ventes/mois</div>
+                        </div>
+                        <div class="stat-box">
+                            <div class="big-number">3x</div>
+                            <div class="stat-label">plus de conversion</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 2: Contexte -->
+        <div class="slide">
+            <div class="slide-content">
+                <h2 class="slide-title">
+                    <i class="fas fa-rocket"></i>
+                    Capitaliser sur un Potentiel <span class="highlight">Exceptionnel</span>
+                </h2>
+                
+                <div class="context-grid">
+                    <div class="achievement-card">
+                        <div class="achievement-icon">
+                            <i class="fas fa-calendar-alt"></i>
+                        </div>
+                        <h3>14 mois</h3>
+                        <p>pour bâtir un modèle<br><strong>impressionnant</strong></p>
+                    </div>
+                    
+                    <div class="achievement-card">
+                        <div class="achievement-icon">
+                            <i class="fas fa-crown"></i>
+                        </div>
+                        <h3>"La Dacia de la mini-pelle"</h3>
+                        <p>Offre <strong>disruptive</strong><br>vs marques premium</p>
+                    </div>
+                    
+                    <div class="achievement-card">
+                        <div class="achievement-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h3>40-50 ventes/mois</h3>
+                        <p>Panier moyen<br><strong>13k€</strong></p>
+                    </div>
+                    
+                    <div class="achievement-card highlight-card">
+                        <div class="achievement-icon">
+                            <i class="fas fa-fire"></i>
+                        </div>
+                        <h3>8000 leads</h3>
+                        <p>en portefeuille<br><strong>40-50/jour</strong></p>
+                    </div>
+                </div>
+                
+                <div class="challenge-box">
+                    <h3><i class="fas fa-target"></i> Le Défi Majeur Identifié</h3>
+                    <div class="conversion-stats">
+                        <div class="stat">
+                            <div class="stat-number danger">3%</div>
+                            <div class="stat-desc">Conversion globale</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-number warning">8%</div>
+                            <div class="stat-desc">Leads qualifiés joints</div>
+                        </div>
+                        <div class="arrow-transform">
+                            <i class="fas fa-arrow-right"></i>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-number success">25%+</div>
+                            <div class="stat-desc">Objectif réalisable</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 3: Analyse Comportementale -->
+        <div class="slide">
+            <div class="slide-content">
+                <h2 class="slide-title">
+                    <i class="fas fa-brain"></i>
+                    L'Opportunité <span class="highlight">Inexploitée</span>
+                </h2>
+                
+                <div class="analysis-hero">
+                    <div class="big-insight">
+                        <div class="insight-number">80%</div>
+                        <div class="insight-text">
+                            des leads qualifiés qui n'aboutissent pas<br>
+                            ne sont <strong>pas une fatalité</strong>
+                        </div>
+                    </div>
+                    <div class="opportunity-arrow">
+                        <i class="fas fa-arrow-down"></i>
+                    </div>
+                    <div class="opportunity-box">
+                        <h3><i class="fas fa-gem"></i> Extraordinaire Opportunité</h3>
+                        <p>Augmentation <strong>immédiate</strong> du chiffre d'affaires<br>
+                        <span class="highlight">sans investir davantage</span> en lead generation</p>
+                    </div>
+                </div>
+                
+                <div class="method-comparison">
+                    <div class="method-box current">
+                        <h4><i class="fas fa-pause"></i> Méthode Actuelle</h4>
+                        <ul>
+                            <li>Découverte rapide</li>
+                            <li>Envoi devis immédiat</li>
+                            <li>Rappel passif</li>
+                        </ul>
+                        <div class="method-result danger">Passive & Inefficace</div>
+                    </div>
+                    
+                    <div class="vs-arrow">
+                        <i class="fas fa-arrow-right"></i>
+                        <span>VS</span>
+                    </div>
+                    
+                    <div class="method-box target">
+                        <h4><i class="fas fa-play"></i> Méthode Cible</h4>
+                        <ul>
+                            <li>Technique de vente efficace</li>
+                            <li>Culture de la motivation</li>
+                            <li>Coaching permanent et motivant</li>
+                        </ul>
+                        <div class="method-result success">Proactive & Percutante</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 4: Les 4 Signaux Faibles -->
+        <div class="slide">
+            <div class="slide-content">
+                <h2 class="slide-title">
+                    <i class="fas fa-search"></i>
+                    Les 4 Signaux <span class="highlight">Faibles</span> Révélateurs
+                </h2>
+                
+                <div class="signals-grid">
+                    <div class="signal-card">
+                        <div class="signal-number">01</div>
+                        <div class="signal-icon">
+                            <i class="fas fa-surprise"></i>
+                        </div>
+                        <h3>Client "Surpris" & "Curieux"</h3>
+                        <div class="signal-content">
+                            <div class="bias-tag">Biais de Nouveauté</div>
+                            <p>Vos clients sont <strong>étonnés du prix</strong>, habitués à la location</p>
+                            <div class="opportunity">
+                                <i class="fas fa-lightbulb"></i>
+                                Transformer la curiosité en motivation d'achat
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="signal-card">
+                        <div class="signal-number">02</div>
+                        <div class="signal-icon">
+                            <i class="fas fa-bolt"></i>
+                        </div>
+                        <h3>Méthode Passive vs Proactive</h3>
+                        <div class="signal-content">
+                            <div class="bias-tag">Biais d'Action & d'Urgence</div>
+                            <p>Processus actuel laisse l'effort au client</p>
+                            <div class="opportunity">
+                                <i class="fas fa-lightbulb"></i>
+                                Guider, dissiper les doutes, activer l'urgence
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="signal-card">
+                        <div class="signal-number">03</div>
+                        <div class="signal-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h3>Variabilité des Performances</h3>
+                        <div class="signal-content">
+                            <div class="bias-tag">Preuve Sociale Interne</div>
+                            <p><strong>Lucie</strong> montre qu'il est possible de signer massivement</p>
+                            <div class="opportunity">
+                                <i class="fas fa-lightbulb"></i>
+                                Structurer et dupliquer les meilleures pratiques
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="signal-card">
+                        <div class="signal-number">04</div>
+                        <div class="signal-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <h3>Absence de Coaching Structuré</h3>
+                        <div class="signal-content">
+                            <div class="bias-tag">Autorité & Réciprocité</div>
+                            <p>Coaching hiérarchique moins bien reçu</p>
+                            <div class="opportunity">
+                                <i class="fas fa-lightbulb"></i>
+                                Expertise externe + accompagnement personnalisé
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 5: Notre Proposition -->
+        <div class="slide">
+            <div class="slide-content">
+                <h2 class="slide-title">
+                    <i class="fas fa-rocket"></i>
+                    Le Bootcamp Performance Commerciale
+                </h2>
+                
+                <div class="bootcamp-intro">
+                    <div class="bootcamp-hero">
+                        <h3>Co-construit & Ancré</h3>
+                        <p>Un accompagnement structuré pour transformer votre cycle de vente à distance en <strong>machine à convertir</strong> efficace et duplicable.</p>
+                    </div>
+                </div>
+                
+                <div class="phases-preview">
+                    <div class="phase-item">
+                        <div class="phase-number">1</div>
+                        <div class="phase-title">Audit Comportemental</div>
+                        <div class="phase-icon"><i class="fas fa-stethoscope"></i></div>
+                    </div>
+                    <div class="phase-connector"></div>
+                    <div class="phase-item">
+                        <div class="phase-number">2</div>
+                        <div class="phase-title">Co-construction</div>
+                        <div class="phase-icon"><i class="fas fa-hammer"></i></div>
+                    </div>
+                    <div class="phase-connector"></div>
+                    <div class="phase-item">
+                        <div class="phase-number">3</div>
+                        <div class="phase-title">Formalisation + IA</div>
+                        <div class="phase-icon"><i class="fas fa-robot"></i></div>
+                    </div>
+                    <div class="phase-connector"></div>
+                    <div class="phase-item">
+                        <div class="phase-number">4</div>
+                        <div class="phase-title">Appropriation</div>
+                        <div class="phase-icon"><i class="fas fa-play"></i></div>
+                    </div>
+                    <div class="phase-connector"></div>
+                    <div class="phase-item">
+                        <div class="phase-number">5</div>
+                        <div class="phase-title">Coaching Individuel</div>
+                        <div class="phase-icon"><i class="fas fa-user-check"></i></div>
+                    </div>
+                </div>
+                
+                <div class="transformation-promise">
+                    <div class="promise-box">
+                        <i class="fas fa-magic"></i>
+                        <h4>La Transformation Promise</h4>
+                        <p>Méthode passive → Approche proactive et comportementale</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 6: Phase 1 & 2 -->
+        <div class="slide">
+            <div class="slide-content">
+                <h2 class="slide-title">
+                    <i class="fas fa-play-circle"></i>
+                    Phases 1 & 2 : <span class="highlight">Écoute & Engagement</span>
+                </h2>
+                
+                <div class="phase-detail">
+                    <div class="phase-header">
+                        <div class="phase-badge">Phase 1</div>
+                        <h3>Audit Comportemental Approfondi</h3>
+                    </div>
+                    
+                    <div class="phase-content">
+                        <div class="process-box">
+                            <h4><i class="fas fa-microphone"></i> Processus</h4>
+                            <ul>
+                                <li><strong>Entretiens individuels</strong> d'une heure avec chaque commercial</li>
+                                <li><strong>À distance par téléphone</strong> - confort optimal</li>
+                                <li><strong>Analyse des pratiques</strong> actuelles, réussites, freins</li>
+                                <li><strong>Engagement individuel</strong> - chacun se sent écouté</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="bias-activation">
+                            <div class="bias-item">
+                                <i class="fas fa-handshake"></i>
+                                <span>Biais de Réciprocité</span>
+                            </div>
+                            <div class="bias-item">
+                                <i class="fas fa-link"></i>
+                                <span>Cohérence Engagement</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="phase-separator">
+                    <i class="fas fa-arrow-down"></i>
+                </div>
+                
+                <div class="phase-detail">
+                    <div class="phase-header">
+                        <div class="phase-badge">Phase 2</div>
+                        <h3>Co-construction du Plan de Vente</h3>
+                    </div>
+                    
+                    <div class="phase-content">
+                        <div class="presential-highlight">
+                            <div class="location-badge">
+                                <i class="fas fa-map-marker-alt"></i>
+                                Présentiel à Chalon-sur-Saône
+                            </div>
+                            <div class="signal-fort">
+                                <strong>Signal Fort</strong> - Investissement sérieux perçu par l'équipe
+                            </div>
+                        </div>
+                        
+                        <div class="construction-elements">
+                            <div class="element-card">
+                                <i class="fas fa-users"></i>
+                                <span>Personas clients précis</span>
+                            </div>
+                            <div class="element-card">
+                                <i class="fas fa-route"></i>
+                                <span>Étapes clés de l'entretien</span>
+                            </div>
+                            <div class="element-card">
+                                <i class="fas fa-question-circle"></i>
+                                <span>Questions qui "font mouche"</span>
+                            </div>
+                            <div class="element-card">
+                                <i class="fas fa-shield-alt"></i>
+                                <span>Réponses aux objections</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 7: Phases 3, 4 & 5 -->
+        <div class="slide">
+            <div class="slide-content">
+                <h2 class="slide-title">
+                    <i class="fas fa-cogs"></i>
+                    Phases 3, 4 & 5 : <span class="highlight">IA & Ancrage</span>
+                </h2>
+                
+                <div class="phases-container">
+                    <div class="phase-mini">
+                        <div class="phase-badge">Phase 3</div>
+                        <h4><i class="fas fa-robot"></i> Formalisation + IA</h4>
+                        <ul>
+                            <li>Plan de Vente complet formalisé</li>
+                            <li>Intégration des biais cognitifs</li>
+                            <li><strong>Agent IA entraîné</strong> sur votre méthode</li>
+                        </ul>
+                        <div class="tech-highlight">
+                            <i class="fas fa-brain"></i>
+                            <span>Intelligence Artificielle Personnalisée</span>
+                        </div>
+                    </div>
+                    
+                    <div class="phase-mini">
+                        <div class="phase-badge">Phase 4</div>
+                        <h4><i class="fas fa-play"></i> Appropriation</h4>
+                        <ul>
+                            <li>Demi-journée à distance</li>
+                            <li>Mises en situation concrètes</li>
+                            <li><strong>Feedback IA immédiat</strong></li>
+                        </ul>
+                        <div class="feedback-highlight">
+                            <i class="fas fa-tachometer-alt"></i>
+                            <span>Feedback Objectif & Rapide</span>
+                        </div>
+                    </div>
+                    
+                    <div class="phase-mini">
+                        <div class="phase-badge">Phase 5</div>
+                        <h4><i class="fas fa-user-check"></i> Coaching Individuel</h4>
+                        <ul>
+                            <li>2 sessions d'1h par commercial</li>
+                            <li>Analyse des vrais entretiens</li>
+                            <li><strong>Ancrage personnalisé</strong></li>
+                        </ul>
+                        <div class="coaching-highlight">
+                            <i class="fas fa-target"></i>
+                            <span>Suivi Sur-Mesure</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="ai-advantage">
+                    <div class="ai-box">
+                        <h4><i class="fas fa-magic"></i> L'Avantage IA</h4>
+                        <div class="ai-benefits">
+                            <div class="ai-benefit">
+                                <i class="fas fa-eye"></i>
+                                <span>Analyse objective des entretiens</span>
+                            </div>
+                            <div class="ai-benefit">
+                                <i class="fas fa-rocket"></i>
+                                <span>Feedback immédiat et neutre</span>
+                            </div>
+                            <div class="ai-benefit">
+                                <i class="fas fa-repeat"></i>
+                                <span>Auto-coaching continu</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 8: Avantages Concrets -->
+        <div class="slide">
+            <div class="slide-content">
+                <h2 class="slide-title">
+                    <i class="fas fa-trophy"></i>
+                    Avantages <span class="highlight">Concrets</span>
+                </h2>
+                
+                <div class="advantages-grid">
+                    <div class="advantage-card primary">
+                        <div class="advantage-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h3>Augmentation Immédiate</h3>
+                        <p>du Taux de Conversion</p>
+                        <div class="advantage-detail">
+                            Chaque point de % gagné = <strong>impact direct majeur</strong> sur votre CA
+                        </div>
+                        <div class="impact-arrow">
+                            <span class="from">3-8%</span>
+                            <i class="fas fa-arrow-right"></i>
+                            <span class="to">15-25%</span>
+                        </div>
+                    </div>
+                    
+                    <div class="advantage-card">
+                        <div class="advantage-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <h3>Accélération</h3>
+                        <p>du Cycle de Vente</p>
+                        <div class="advantage-detail">
+                            Réduction du temps entre premier contact et décision
+                        </div>
+                    </div>
+                    
+                    <div class="advantage-card">
+                        <div class="advantage-icon">
+                            <i class="fas fa-users-cog"></i>
+                        </div>
+                        <h3>Uniformisation</h3>
+                        <p>de l'Équipe</p>
+                        <div class="advantage-detail">
+                            Fini l'aléatoire ! Cadre solide et éprouvé pour tous
+                        </div>
+                    </div>
+                    
+                    <div class="advantage-card">
+                        <div class="advantage-icon">
+                            <i class="fas fa-user-plus"></i>
+                        </div>
+                        <h3>Intégration Ultra-Rapide</h3>
+                        <p>des Nouveaux</p>
+                        <div class="advantage-detail">
+                            <strong>48h</strong> pour être opérationnel sur la méthode
+                        </div>
+                    </div>
+                    
+                    <div class="advantage-card highlight">
+                        <div class="advantage-icon">
+                            <i class="fas fa-gem"></i>
+                        </div>
+                        <h3>Valorisation</h3>
+                        <p>de Votre Investissement</p>
+                        <div class="advantage-detail">
+                            Confiance renforcée, plaisir de vendre, engagement au succès
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="roi-projection">
+                    <h4><i class="fas fa-calculator"></i> Projection ROI</h4>
+                    <div class="roi-calculation">
+                        <div class="roi-item">
+                            <span class="roi-label">Leads actuels</span>
+                            <span class="roi-value">8000</span>
+                        </div>
+                        <div class="roi-operator">×</div>
+                        <div class="roi-item">
+                            <span class="roi-label">Amélioration conversion</span>
+                            <span class="roi-value">+10%</span>
+                        </div>
+                        <div class="roi-operator">×</div>
+                        <div class="roi-item">
+                            <span class="roi-label">Panier moyen</span>
+                            <span class="roi-value">13k€</span>
+                        </div>
+                        <div class="roi-result">
+                            <span class="roi-label">Impact CA</span>
+                            <span class="roi-value highlight">+10M€</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 9: Investissement -->
+        <div class="slide">
+            <div class="slide-content">
+                <h2 class="slide-title">
+                    <i class="fas fa-handshake"></i>
+                    Investissement <span class="highlight">Stratégique</span>
+                </h2>
+                
+                <div class="investment-container">
+                    <div class="investment-hero">
+                        <div class="price-box">
+                            <div class="price-label">Programme Complet</div>
+                            <div class="price-amount">4 950€</div>
+                            <div class="price-unit">HT</div>
+                        </div>
+                        
+                        <div class="included-team">
+                            <h4><i class="fas fa-users"></i> Inclus pour l'équipe</h4>
+                            <div class="team-members">
+                                <div class="member-item">4 commerciaux</div>
+                                <div class="member-item">+ apprentie (optionnel)</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="investment-breakdown">
+                        <h4><i class="fas fa-list-check"></i> Tout Inclus</h4>
+                        <div class="breakdown-grid">
+                            <div class="breakdown-item">
+                                <i class="fas fa-microphone"></i>
+                                <span>Audits individuels & collectifs</span>
+                            </div>
+                            <div class="breakdown-item">
+                                <i class="fas fa-file-alt"></i>
+                                <span>Plan de Vente formalisé</span>
+                            </div>
+                            <div class="breakdown-item">
+                                <i class="fas fa-robot"></i>
+                                <span>Agent IA intégré</span>
+                            </div>
+                            <div class="breakdown-item">
+                                <i class="fas fa-play"></i>
+                                <span>Atelier d'appropriation</span>
+                            </div>
+                            <div class="breakdown-item">
+                                <i class="fas fa-user-check"></i>
+                                <span>2 coachings individuels/commercial</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="additional-costs">
+                        <div class="cost-note">
+                            <i class="fas fa-plane"></i>
+                            <strong>Frais de déplacement</strong> (Montpellier → Chalon-sur-Saône)<br>
+                            Facturés au réel sur justificatifs pour la journée présentielle
+                        </div>
+                    </div>
+                    
+                    <div class="value-comparison">
+                        <div class="comparison-title">
+                            <i class="fas fa-balance-scale"></i>
+                            Comparaison Valeur/Investissement
+                        </div>
+                        <div class="comparison-bars">
+                            <div class="comparison-item">
+                                <span class="comparison-label">Investissement</span>
+                                <div class="comparison-bar">
+                                    <div class="bar-fill" style="width: 5%"></div>
+                                </div>
+                                <span class="comparison-value">4 950€</span>
+                            </div>
+                            <div class="comparison-item">
+                                <span class="comparison-label">ROI Potentiel</span>
+                                <div class="comparison-bar">
+                                    <div class="bar-fill success" style="width: 100%"></div>
+                                </div>
+                                <span class="comparison-value">+10M€ CA</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 10: Calendrier & CTA -->
+        <div class="slide">
+            <div class="slide-content">
+                <h2 class="slide-title">
+                    <i class="fas fa-calendar-check"></i>
+                    Calendrier & <span class="highlight">Action Immédiate</span>
+                </h2>
+                
+                <div class="urgency-box">
+                    <div class="urgency-icon">
+                        <i class="fas fa-hourglass-half"></i>
+                    </div>
+                    <h3>Fenêtre d'Opportunité</h3>
+                    <p><strong>Semaine du 16 juin</strong> - calendrier se remplissant rapidement</p>
+                    <div class="scarcity-badge">
+                        <i class="fas fa-fire"></i>
+                        Biais de Rareté
+                    </div>
+                </div>
+                
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-point active"></div>
+                        <div class="timeline-content">
+                            <h4>Cet après-midi</h4>
+                            <p>Envoi proposition formalisée</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-point"></div>
+                        <div class="timeline-content">
+                            <h4>Dès validation</h4>
+                            <p>Signature électronique & virement</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-point"></div>
+                        <div class="timeline-content">
+                            <h4>À partir du 16 juin</h4>
+                            <p>Lancement entretiens individuels</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-point"></div>
+                        <div class="timeline-content">
+                            <h4>Semaines suivantes</h4>
+                            <p>Phases collectives & coachings</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="commitment-box">
+                    <i class="fas fa-phone"></i>
+                    <p><strong>Engagement :</strong> Contact d'ici vendredi sur votre portable<br>
+                    <span class="phone-number">06 98 23 30 20</span></p>
+                </div>
+                
+                <div class="final-cta">
+                    <div class="cta-message">
+                        <h3><i class="fas fa-gem"></i> Yann, vous avez l'or entre les mains</h3>
+                        <p>Ensemble, <strong>structurons la méthode</strong> et <strong>libérons le potentiel</strong><br>
+                        de votre équipe pour atteindre vos objectifs et au-delà.</p>
+                    </div>
+                    
+                    <div class="signature">
+                        <p><strong>Au plaisir de démarrer cette collaboration.</strong></p>
+                        <div class="signature-name">
+                            Laurent Serre<br>
+                            <span class="signature-title">Expert Hybride en Performance Commerciale</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
